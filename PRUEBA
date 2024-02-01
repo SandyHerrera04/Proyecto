@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Logaritmia MX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo de Logaritmia MX">
+    </div>
+    <h1>Logaritmia MX</h1>
+    <p>Aprende matemáticas de forma divertida y eficiente</p>
+  </header>
+
+  <main>
+    <section class="beneficios">
+      <h2>Beneficios</h2>
+      <ul>
+        <li>Aprende a tu ritmo</li>
+        <li>Supera tu nivel de aprendizaje</li>
+        <li>Alcanza el éxito</li>
+        <li>Enamorate del mundo de las matemáticas</li>
+      </ul>
+    </section>
+    <section class="metodologia">
+      <h2>Metodología</h2>
+      <p>
+        Logaritmia MX utiliza una metodología innovadora que se basa en los siguientes pasos:
+      </p>
+      <ol>
+        <li>Realiza el diagnóstico inicial</li>
+        <li>Logaritmia MX diseñará un paquete personalizado</li>
+        <li>Inicio de la experiencia personal</li>
+        <li>Verificación final</li>
+      </ol>
+    </section>
+    <section class="boton">
+      <a href="https://www.logaritmia.mx/" class="btn">¡Agenda tu sesión diagnóstica hoy!</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Logaritmia MX</p>
+  </footer>
+
+</body>
+</html>
