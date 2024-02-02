@@ -27,6 +27,19 @@
 .black-txt{
     color: black;
 }
+.purple-txt{
+    color: var(--color-logaritmia-4);
+}
+.green-txt{
+    color: var(--color-logaritmia-3);;
+}
+.blue-txt{
+    color: var(--color-logaritmia-2);;
+}
+.pink-txt{
+    color: var(--color-logaritmia-5);;
+}
+
 .fondo{
     width: 95%;
     align-self: center;
@@ -246,7 +259,8 @@ li.black-txt{
 #slide1:checked ~ #bullets label:nth-child(1),
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
-#slide4:checked ~ #bullets label:nth-child(4) {
+#slide4:checked ~ #bullets label:nth-child(4)
+#slide5:checked ~ #bullets label:nth-child(5){
   background: #444;
 }
 
@@ -254,11 +268,13 @@ li.black-txt{
   #slide1:checked ~ #controls label:nth-child(2),
   #slide2:checked ~ #controls label:nth-child(3),
   #slide3:checked ~ #controls label:nth-child(4),
-  #slide4:checked ~ #controls label:nth-child(1),
+  #slide4:checked ~ #controls label:nth-child(5),
+    #slide5:checked ~ #controls label:nth-child(1),
   #slide1:checked ~ #controls label:nth-last-child(2),
   #slide2:checked ~ #controls label:nth-last-child(3),
   #slide3:checked ~ #controls label:nth-last-child(4),
-  #slide4:checked ~ #controls label:nth-last-child(1) {
+    #slide4:checked ~ #controls label:nth-last-child(5)
+  #slide5:checked ~ #controls label:nth-last-child(1) {
     margin: 0;
   }
   #slides {
