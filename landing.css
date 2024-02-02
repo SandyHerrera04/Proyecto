@@ -1,24 +1,24 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #fff; /* Ajusta el color de fondo según tus necesidades */
+.header {
+    background-color: #33cccc; /* Ajusta el color de fondo según tus necesidades */
     padding: 10px;
 }
 
-header a {
+.header a {
     margin-right: 10px;
     text-decoration: none;
 }
 
-section {
+.section {
     margin: 20px;
 }
 
-h2 {
+.h2 {
     text-align: center;
     color: #33cccc;
 }
@@ -33,7 +33,7 @@ span {
 
 button {
     background-color: #33cccc;
-    color: #fff;
+    color: #33cccc;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
