@@ -1,69 +1,67 @@
-/* style.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-p {
-    text-align: center;
-}
-
 header {
-    background-color: #f0f0f0;
+    background-color: #fff; /* Ajusta el color de fondo según tus necesidades */
     padding: 10px;
 }
 
 header a {
-    margin: 0 10px;
+    margin-right: 10px;
     text-decoration: none;
-    color: black;
-}
-
-header button {
-    background-color: #33cccc;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
 }
 
 section {
-    padding: 20px;
+    margin: 20px;
 }
 
 h2 {
     text-align: center;
-    padding-left: 30px;
+    color: #33cccc;
 }
 
-table {
-    width: 542px;
-    height: 37px;
-    margin-left: auto;
-    margin-right: auto;
+p {
+    text-align: justify;
 }
 
-table td {
-    padding-left: 30px;
-}
-
-span button {
+span {
     background-color: #33cccc;
-    color: white;
-    padding: 10px;
+}
+
+button {
+    background-color: #33cccc;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
 
-footer {
-    padding-left: 30px;
-    background-color: #f0f0f0;
+button:hover {
+    background-color: #1a8c8c; /* Cambia el color al pasar el ratón sobre el botón */
 }
 
-footer nav a {
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+footer a {
     margin-right: 10px;
     text-decoration: none;
-    color: black;
 }
+
+/* Agregar estilos para el slider si es necesario */
+
+/* Puedes agregar más estilos según tus necesidades */
