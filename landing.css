@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    background-color: #33cccc;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-left: 30px;
+}
+
+table {
+    width: 542px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    padding-left: 30px;
+}
+
+span button {
+    background-color: #33cccc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding-left: 30px;
+    background-color: #f0f0f0;
+}
+
+footer nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
